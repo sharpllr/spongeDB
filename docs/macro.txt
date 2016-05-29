@@ -1,0 +1,6 @@
+HAVE_ATOMIC  	-- 使用gcc的build-in原子操作
+HAVE_PROC_STAT 	-- 获取RSS统计信息，在linux通过查询/proc/$(pid)来获取
+HAVE_PROC_SMAPS -- linux中，通过/proc/${pid}/smaps查询SMAPS信息
+HAVE_EPOLL		-- linux中，使用epoll
+_POSIX_			-- 使用POSIX标准的接口，如：
+					spinlock

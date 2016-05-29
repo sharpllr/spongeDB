@@ -1,0 +1,8 @@
+1million atomic_inc
+>gnu build-in sync_xxx
+[unit_test/atomic_ut.c][atomic_pef_ut][54]Using time:9922 us
+>posix mutex
+[unit_test/atomic_ut.c][atomic_pef_ut][54]Using time:22438 us
+>val++,not atomic
+[unit_test/atomic_ut.c][atomic_pef_ut][55]Using time:2240 us
+
